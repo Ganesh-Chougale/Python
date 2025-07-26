@@ -6,6 +6,8 @@ how to create a Python virtual environment in **CMD**, **PowerShell**, and **Bas
 
 ```cmd
 python -m venv myenv
+<!-- py -3.10 -m venv myenv
+ -->
 myenv\Scripts\activate
 ```
 
@@ -18,6 +20,7 @@ myenv\Scripts\activate
 
 ```powershell
 python -m venv myenv
+# py -3.10 -m venv myenv # version specific
 .\myenv\Scripts\Activate.ps1
 ```
 
@@ -32,6 +35,7 @@ python -m venv myenv
 
 ```bash
 python3 -m venv myenv
+# python3.10 -m venv myenv # version Specific
 source myenv/bin/activate
 ```
 
